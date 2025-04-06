@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TrashCash Dashboard</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./style1.css">
+
+</head>
+<body>
+
+  <!-- Main Section -->
+  <div class="main">
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <div class="logo">
+        <img src="./logone.png" alt="logo" height="50px" width="100px"  > <p style="font-style: italic;">TrashCash</p>
+      </div>
+      <div class="menu">
+        <div class="dropdown">
+          <button class="dropbtn" style="font-weight: bold;">For Recyclers ⌄</button>
+          <div class="dropdown-content">
+            <a href="#" style="font-weight: bold;">Schedule Pickup</a>
+            <a href="#" style="font-weight: bold;">History</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" style="font-weight: bold;">For Buyers ⌄</button>
+          <div class="dropdown-content">
+            <a href="#" style="font-weight: bold; color:rgb(4, 5, 4)">Browse Items</a>
+            <a href="#" style="font-weight: bold; color:rgb(19, 20, 19)">My Orders</a>
+          </div>
+        </div>
+        <a href="#" class="x" style="color: rgb(3, 3, 3);">How we work?</a>
+        <a href="#" class="x" style="color: rgb(18, 19, 18);">About us</a>
+      </div>
+    </div>
+
+  
+    <h1>Dashboard</h1>
+    <br> 
+    <!-- Notification -->
+     <h4>Notifications</h4>
+     <div class="notification">
+      <div class="notific">
+        <div class="checkl"><img src="./checklogo.png" alt="check" height="48px" width="42px"></div>
+      <div id="mrx">
+        
+          Trash collection request - scheduled on 23/11/24
+          <a href="#">Approved!</a>
+          <i class="fa-regular fa-circle-xmark custom-close-icon" id="mx"></i>
+
+
+        <div><p id="imp">10 mins ago</p></div>
+      </div>
+      </div>
+    </div>
+   
+   
+
+    <div class="view-all">View all</div>
+  <br>
+    <!-- Buttons -->
+    <div class="buttons">
+      <button class="btn">Schedule <br>a pickup</button>
+      <button class="btn">History</button>
+      <button class="btn">Calendar</button>
+    </div>
+
+    <!-- Price Chart -->
+     <br>
+    <div class="price-chart">
+      <h3>Price Chart</h3>
+      <div class="price-items">
+        <div class="price-box">Iron<br>- 15rupees/1kg</div>
+        <div class="price-box">Clothes<br>- 15rupees/1kg</div>
+        <div class="price-box">Plastic<br>- 15rupees/1kg</div>
+        <div class="price-box">E-Waste<br>- 15rupees/1kg</div>
+        <div class="price-box">Papers<br>- 15rupees/1kg</div>
+        <div class="price-box">Others<br>- 15rupees/1kg</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Sidebar -->
+  <div class="sidebar">
+     <div class="px">
+      <div class="ax"> <img src="your-profile-image-link.jpg" alt="pf" class="profile-pic"></div>
+
+      <div class="cx">
+        
+        <div class="name">Khushi Rahane</div>
+        <div class="role">Recycler</div>
+    </div>
+     </div>
+      <hr class="custom-line">
+      <br>
+    <div class="points">
+      <img src="./logone.png" alt="logo">
+      678 TrashCash
+    </div>
+    <nav>
+      <a href="#">-Dashboard</a>
+      <a href="#">-Scoreboard</a>
+      <a href="#">-Schedule a Pickup</a>
+      <a href="#">-FAQs</a>
+      <a href="#">-Help</a>
+      <a href="#">-Redeem Points</a>
+    </nav>
+    <button class="logout-btn">Logout</button>
+  </div>
+
+</body>
+</html>
